@@ -1,0 +1,62 @@
+#----------------------------------------------|
+#|      _       _        ___        _          |
+#|     | | ___ (_)_ __  / _ \\ _ __ | |_       |
+#|  _  | |/ _ \\| | '_ \\| | | | '_ \\| __|    |
+#| | |_| | (_) | | | | | |_| | |_) |  |_       |
+#| \\___/ \\___/|_|_| |_|\\___/| .__/ \\__|    |
+#|                           |_|               |
+#----------------------------------------------|
+
+
+version: v2-201
+
+playerJoin:
+  enable: true
+  name: "&f{eventPlayer}"
+  prefix: "&8[&a+&8] "
+  suffix: " "
+  hoverText:
+    - " "
+    - "   &fHealth➥ %player_health%❤"
+    - "   &fName➥ %player_name%"
+    - "   &fHey! You Back!!!"
+    - " "
+  command:
+    click: "{eventPlayer},欢迎回来!"
+    auto:
+      type: "console"
+      command: "tell {eventPlayer} 欢迎回来!"
+
+playerExit:
+  enable: true
+  name: "&f{eventPlayer}"
+  prefix: "&8[&c-&8] "
+  suffix: " "
+  hoverText:
+    - " "
+    - "   &fHealth➥ %player_health%❤"
+    - "   &fName➥ %player_name%"
+    - "   &fGoodBye!Pls Remember Back:D"
+    - " "
+  command:
+    click: "{eventPlayer},再见!记得回来呀"
+    auto:
+      type: "console"
+      command: "tell {eventPlayer} 再见!记得回来呀"
+
+playerFirstJoin:
+  enable: true
+  name: "&f{eventPlayer}"
+  prefix: "&8[&b+&8] "
+  suffix: " "
+  hoverText:
+    - " "
+    - "   &fHealth➥ %player_health%❤"
+    - "   &fName➥ %player_name%"
+    - "   &fIts Newbie!Lets Welcome Him/Her!"
+    - " "
+  command:
+    click: "{eventPlayer},欢迎来玩我们的服务器wwww!"
+    auto:
+      type: "console"
+      command: "tell {eventPlayer} 欢迎来玩我们的服务器wwww!"

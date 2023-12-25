@@ -1,0 +1,15 @@
+name: JoinOpt
+version: '${version}'
+main: org.dapples.joinOpt
+api-version:
+website: https://ItsDApples.github.IO
+softdepend:
+  - PlaceholderAPI
+commands:
+  jt:
+    usage: /jt
+    permission: joinopt.admin
+permissions:
+  joinopt.admin:
+    default: op
+
