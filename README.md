@@ -10,7 +10,7 @@
 > JoinOpt - A plugin for edit Join/Exit messages<br>
 > Support Auto/Click commands/messages
 
-[![pkoxbZD.md.png](https://s21.ax1x.com/2024/07/19/pkoxbZD.md.png)](https://imgse.com/i/pkoxbZD)
+[![pkoxbZD.md.png](https://s21.ax1x.com/2024/07/19/pkoxbZD.md.png)]
 
 ## What we can do?
 
