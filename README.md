@@ -10,7 +10,7 @@
 > JoinOpt - A plugin for edit Join/Exit messages<br>
 > Support Auto/Click commands/messages
 
-![](https://raw.githubusercontent.com/ItsDApples/PicGo/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-07-19%20011356.png "" =800x)
+[![pkoxbZD.md.png](https://s21.ax1x.com/2024/07/19/pkoxbZD.md.png)](https://imgse.com/i/pkoxbZD)
 
 ## What we can do?
 
@@ -20,7 +20,7 @@
 
 ---
 ## BStats
-![](https://bstats.org/signatures/bukkit/JoinOpt.svg  "" =800x)
+![""](https://bstats.org/signatures/bukkit/JoinOpt.svg  "" =800x)
 
 ---
 ## Links
