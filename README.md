@@ -20,7 +20,7 @@
 
 ---
 ## BStats
-![""](https://bstats.org/signatures/bukkit/JoinOpt.svg  "" =800x)
+![JoinOpt.svg](https://bstats.org/signatures/bukkit/JoinOpt.svg)
 
 ---
 ## Links
