@@ -1,6 +1,4 @@
----
-title: "Introduce"
----
+
 
 ![Core](https://img.shields.io/badge/Core-Paper/Spigot-blue)
 ![Vision](https://img.shields.io/badge/MCVison-1.17+-blue)
