@@ -16,7 +16,7 @@
 
 - Edit Join/Edit message and First Join message
 - Run command/output message when click message or auto run when join
-- Wait more in [Update](/docs/JoinOpt/Update.md)
+- Wait more in [Update]([/docs/JoinOpt/Update.md](https://itsdapples.github.io/OptTools-Docs/docs/JoinOpt/Update.html))
 
 ---
 ## BStats
