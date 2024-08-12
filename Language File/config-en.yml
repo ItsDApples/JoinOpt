@@ -1,0 +1,80 @@
+# ----------------------------------------------|
+# |      _       _        ___        _          |
+# |     | | ___ (_)_ __  / _ \\ _ __ | |_       |
+# |  _  | |/ _ \\| | '_ \\| | | | '_ \\| __|    |
+# | | |_| | (_) | | | | | |_| | |_) |  |_       |
+# | \\___/ \\___/|_|_| |_|\\___/| .__/ \\__|    |
+# |                           |_|               |
+# ----------------------------------------------|
+# 插件作者 (https://github.com/ItsDApples)
+# 插件语言文件目录:
+# 如果你想要配置项为空，请输入"false"
+# 事件类型:
+# click: (suggest,run)
+# auto: (console,player)
+# rewards: (coin,command)
+# 如果运行的事件是指令, 请在指令前加入"/"
+
+# 请勿修改
+version: 4
+
+# 当玩家加入时触发的事件
+# PH:
+# {eventPlayer} 加入的玩家
+# 所有PlaceholderAPI插件的变量
+PlayerJoin:
+  enable: true
+  name: "&f{eventPlayer}"
+  prefix: "&8[&a+&8] "
+  suffix: false
+  actions:
+    click:
+      type: false
+      action: ""
+    auto:
+      type: false
+      action: ""
+
+# 当玩家退出时触发的事件
+# PH:
+# {eventPlayer} 退出的玩家
+# 所有PlaceholderAPI插件的变量
+PlayerExit:
+  enable: true
+  name: "&f{eventPlayer}"
+  prefix: "&8[&c-&8] "
+  suffix: false
+  actions:
+    click:
+      type: false
+      action: ""
+    auto:
+      type: false
+      action: ""
+
+# 当玩家第一次加入时触发的事件
+# PH:
+# {eventPlayer} 第一次加入的玩家
+# 所有PlaceholderAPI插件的变量
+
+FirstJoin:
+  enable: true
+  name: "&f{eventPlayer}"
+  prefix: "&8[&b+&8] "
+  suffix: false
+  actions:
+    click:
+      type: false
+      action: ""
+    auto:
+      type: false
+      action: ""
+    welcomeRewards:
+      enable: true
+      time: 10
+      message: "welcome"
+      rewards:
+        type: coin
+        action: 15
+        # 仅奖励类型为金币时生效
+        message: "You got 15 coin!"

@@ -1,0 +1,11 @@
+name: JoinOpt
+version: '${version}'
+author: DApples
+main: org.opttools.JoinOpt
+api-version: "1.17"
+commands:
+  joinopt:
+    usage: /joinopt <args>
+permissions:
+  joinopt.admin:
+    default: op
