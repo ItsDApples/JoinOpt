@@ -2,7 +2,7 @@
 
 ![Core](https://img.shields.io/badge/Core-Paper/Spigot-blue)
 ![Vision](https://img.shields.io/badge/MCVison-1.17+-blue)
-![Last-Vision](https://img.shields.io/badge/LastVision-3.0.1-blue)
+![Last-Vision](https://img.shields.io/badge/LastVision-3.0.2-blue)
 
 ---
 
