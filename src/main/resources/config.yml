@@ -1,80 +1,61 @@
-# ----------------------------------------------|
-# |      _       _        ___        _          |
-# |     | | ___ (_)_ __  / _ \\ _ __ | |_       |
-# |  _  | |/ _ \\| | '_ \\| | | | '_ \\| __|    |
-# | | |_| | (_) | | | | | |_| | |_) |  |_       |
-# | \\___/ \\___/|_|_| |_|\\___/| .__/ \\__|    |
-# |                           |_|               |
-# ----------------------------------------------|
-# Plugin by DApples(https://github.com/ItsDApples)
-# Language file in (https://github.com/ItsDApples/JoinOpt/tree/main/Language%20File)
-# If you want actions disable, you can type "false" in type config
-# Actions type:
-# click: (suggest,run)
-# auto: (console,player)
-# rewards: (coin,command)
-# If the action is run command, please type "/" before it
+#        _        _        ___           _
+#       | | ___  (_)_ __  /  _ \\ ___   | |_
+#    _  | |/ _ \\| | '_ \\| | | ||  _ \\|  _|
+#   | |_| | (_) || | | | || | | || |_)||| |_
+#   \\___/\\___/ |_|_| |_|\\___/ |  __//\\__|
+#                                |_|
+#
+# Plugin by DApples (https://github.com/ItsDApples)
+# Docs: (https://github.com/ItsDApples/JoinOpt/wiki)
+# Discord/QQ Group: (https://discord.gg/EteTr4Pkmd and 685429475)
+# Color codes: & + Minecraft color codes / &# + Hex color codes
+# You can set the PlayerJoin/PlayerExit/PlayerFirstJoin Messages and their Actions.
+#
+# Placeholders:
+# {player} The join player
+# All PlaceholderAPI plugin's placeholder
 
 # Do not edit this
-version: 4
+version: 1.0.1
 
-# The action when player join
-# PH:
-# {eventPlayer} The join player
-# All PlaceholderAPI plugin's placeholder
 PlayerJoin:
   enable: true
-  name: "&f{eventPlayer}"
-  prefix: "&8[&a+&8] "
-  suffix: false
+  message: "&7[&#CCFF99+&7] &f{player}"
+  hoverTexts:
+    - ""
+    - " &7Welcome, &f{player}&7. "
+    - ""
   actions:
-    click:
-      type: false
-      action: ""
-    auto:
-      type: false
-      action: ""
+    - "[click][run]tell {player} Welcome back !"
+    - "[auto][run]tell {player} Welcome back !"
 
-# The action when player exit
-# PH:
-# {eventPlayer} The exit player
-# All PlaceholderAPI plugin's placeholder
 PlayerExit:
   enable: true
-  name: "&f{eventPlayer}"
-  prefix: "&8[&c-&8] "
-  suffix: false
+  message: "&7[&#FF6666-&7] &f{player}"
+  hoverTexts:
+    - ""
+    - " &7Bye~, &f{player}&7. "
+    - ""
   actions:
-    click:
-      type: false
-      action: ""
-    auto:
-      type: false
-      action: ""
-
-# The action when player first join
-# PH:
-# {eventPlayer} The first join player
-# All PlaceholderAPI plugin's placeholder
-
+    - "[auto][run]tell {player} Bye~, {player}"
 FirstJoin:
   enable: true
-  name: "&f{eventPlayer}"
-  prefix: "&8[&b+&8] "
-  suffix: false
+  message: "&7[&#CCFFFF+&7] &f{player}"
+  hoverTexts:
+    - ""
+    - " &7Welcome, &f{player}&7. "
+    - ""
   actions:
-    click:
-      type: false
-      action: ""
-    auto:
-      type: false
-      action: ""
-    welcomeRewards:
-      enable: true
-      time: 10
-      message: "welcome"
-      rewards:
-        type: coin
-        action: 15
-        # Only coin
-        message: "You got 15 coin!"
+    - "[click][suggest]welcome"
+    - "[auto]tell {player} Welcome! {player}"
+
+  welcomeRewards:
+    enable: true
+    keys:
+      - "welcome"
+      - "welcome, {player}"
+    commands:
+      - "give {player} diamond 3"
+      - "tell {player} You received some rewards"
+    message: "&#FFCCCC[Server] &7You received some rewards!"
+    second: 10
