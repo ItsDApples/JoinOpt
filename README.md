@@ -36,6 +36,8 @@ A perfermance plugin for edit minecraft join/exit messages with actions and welc
 [[MineBBS]](https://www.minebbs.com/resources/joinopt.8895/)
 [[Docs]](https://github.com/ItsDApples/JoinOpt/wiki)
 [[Modrinth]](https://modrinth.com/project/joinopt)
+[[Discord]](https://discord.gg/EteTr4Pkmd)
+
 
 
 
