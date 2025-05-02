@@ -1,1 +1,1 @@
-[![Website](https://img.shields.io/badge/OptTools-Website-blue?logo=ebox)](https://dapl.us.kg/)
+[![Website](https://img.shields.io/badge/Modrinth?logo=modrinth)](https://dapl.us.kg/)
